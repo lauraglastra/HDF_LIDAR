@@ -1,13 +1,12 @@
 # HDF_LIDAR
-======
 This repository has been created for processing LIDAR data from NASA's CALIPSO satellite. LIDAR data from CALIPSO is stored in HDF format.
 
 I recommend creating a virtual environment to work with HDF_LIDAR in. Oftentimes the matplotlib toolkit 'basemap' will be difficult to install or fail to install otherwise.
 
 To create a virtual environment, do the following:
 
-# Python 3
-conda create --name hdflidar
+    # Python 3
+    conda create --name hdflidar
 
 Requirements
 ------------
