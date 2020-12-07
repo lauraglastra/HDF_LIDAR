@@ -11,7 +11,7 @@ To create a virtual environment, do the following:
 Requirements
 ------------
 
-Make sure you have the following programs and libraries installed:
+Make sure you have the following programs and libraries installed in your virtual environment:
 
   * [Python](http://www.python.org/) >= 3.8
     including development files
@@ -24,11 +24,10 @@ Make sure you have the following programs and libraries installed:
     conda install -c conda-forge basemap
   * [pyhdf](https://pypi.org/project/pyhdf/)
     conda install -c conda-forge pyhdf
-    Note: you must also install the HDF4 library with pyhdf
-  * [HDF4 Library](https://portal.hdfgroup.org/display/support/Download+HDF4) >= 4.2.15
+  * [HDF4 Library](https://portal.hdfgroup.org/display/support/Download+HDF4) >= 4.2.15 (Download from site and save to your environment)
   * [pyproj](https://pypi.org/project/pyproj/)
   * [pytz](https://pypi.org/project/pytz/)
   * [numexpr](https://pypi.org/project/numexpr/2.6.1/)
   
-  
+**Note:** For pyhdf to work, you must also install the HDF4 library listed above.  
 
