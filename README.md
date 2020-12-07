@@ -13,12 +13,22 @@ Requirements
 
 Make sure you have the following programs and libraries installed:
 
-  * [Python](http://www.python.org/) >= 2.6
+  * [Python](http://www.python.org/) >= 3.8
     including development files
-  * [cython](http://cython.org/)
+  * [Anaconda](https://www.anaconda.com/products/individual)
+    install the 64-bit version for your operating system
   * [numpy](http://www.numpy.org/)
   * [matplotlib](http://matplotlib.org/)
+  * [cython](http://cython.org/)
   * [basemap](http://matplotlib.org/basemap/)
-  * [libhdf4](http://www.hdfgroup.org/products/hdf4/)
-  * [libhdfeos2](http://hdfeos.org/software/library.php#HDF-EOS2)
+    conda install -c conda-forge basemap
+  * [pyhdf](https://pypi.org/project/pyhdf/)
+    conda install -c conda-forge pyhdf
+    Note: you must also install the HDF4 library with pyhdf
+  * [HDF4 Library](https://portal.hdfgroup.org/display/support/Download+HDF4) >= 4.2.15
+  * [pyproj](https://pypi.org/project/pyproj/)
+  * [pytz](https://pypi.org/project/pytz/)
+  * [numexpr](https://pypi.org/project/numexpr/2.6.1/)
+  
+  
 
